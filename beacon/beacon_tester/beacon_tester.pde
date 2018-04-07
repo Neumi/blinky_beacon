@@ -1,3 +1,10 @@
+/*
+  to test beacon enter the ip adress of the desired beacon and run this sketch
+  the beacon should start to blink fast
+  if not, check if processing outputs something like "acknowledged" really fast. if it doesnt the beacon is not reachable.
+  if processing ouputs "acknowledged" and the led is not flickering, check the beacons wiring. the led might not be connected.
+*/
+
 import hypermedia.net.*;
 
 UDP udp;
